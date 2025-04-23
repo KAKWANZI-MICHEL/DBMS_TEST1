@@ -28,7 +28,7 @@ UPDATE students
 SET student_name = 'Nelson'
 WHERE id = 26;
 
-
+## calculating the highest and lowest tution fee
 SELECT 
     MAX(tuition_fee) AS highest_tuition_fee,
     MIN(tuition_fee) AS lowest_tuition_fee
